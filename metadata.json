@@ -1,0 +1,73 @@
+{
+  "modal": [
+    {
+      "section": "section A",
+      "order": "1",
+      "components": [
+        {
+          "key": "key",
+          "type": "type",
+          "label": "label",
+          "order": "1",
+          "rule": {
+            "required": true,
+            "maxLength": 10
+          }
+        },
+        {
+          "key": "key",
+          "type": "type",
+          "label": "label",
+          "order": "2",
+          "rule": {
+            "required": true,
+            "maxLength": 10
+          }
+        }
+      ]
+    },
+    {
+      "section": "section B",
+      "order": "2",
+      "components": [
+        {
+          "key": "key",
+          "type": "radio",
+          "label": "label",
+          "options": [
+            {
+              "label": "label",
+              "value": "value"
+            }
+          ],
+          "order": "1",
+          "rule": {
+            "required": true
+          }
+        }
+      ]
+    },
+    {
+      "section": "section C",
+      "order": "3",
+      "components": [
+        {
+          "key": "key",
+          "type": "textbox",
+          "label": "label",
+          "options": [
+            {
+              "label": "label",
+              "value": "value"
+            }
+          ],
+          "order": "1",
+          "rule": {
+            "required": true,
+            "maxLength": 10
+          }
+        }
+      ]
+    }
+  ]
+}
